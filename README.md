@@ -12,7 +12,6 @@ My project, Its Lit, is a servo to press my light button in the morning based on
 
 
 ### Form
-Explain your design choices here and include images that document your project's material embodiment. ///
 
 **Finished Enclosure:**
 
