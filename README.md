@@ -18,6 +18,7 @@ Explain your design choices here and include images that document your project's
 
 **Finished Enclosure:**
 
+For the enclosure, I made the design choice to make it enclosed except for the power cable and the servo motor. This is because the servo motor needs to be near my light switch to press it.
 ![Finished Enclosure](finished_enclosure.jpg)
 
 **Electronics Exposed:**
@@ -31,6 +32,12 @@ Here you should give an overview of the technical operation of your device, incl
 * list of hardware used
 * Explanation of your
 * Link to code   
+
+Wiring diagram: 
+
+List of hardware used: Servo motor, wires, blue LED, 330 ohms, power cable, power rod (portable charging rod), Photon board
+
+Link to code: 
 
 //
 
