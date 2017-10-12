@@ -1,14 +1,15 @@
 # Midterm IoT Project
 
-Name:  
+Name:  Jiwon (Joyce) Choi
 
-Date:
+Date: 10/12/17
 
-## Project: "Brand Name" or Device Name
+## Project: It's Lit
 
 ### Conceptual Description
 
-/// Replace with a description of the ***critical / conceptual dimensions of your project***, with specific reference to the key issues it engages.  These should intersect with the issues that have been explored in the readings and discussions during the first half of class:  eWaste, data security/ownership in relation to corporate cloud infrastructures; critical making; surveillance and privacy, etc. ** *How does your project engage with these issues beyond mere instrumentality?* ** ///
+My project, Its Lit, is a servo to press my light button in the morning based on input it gets from Will's project which detects when the light outside is light enough, signaling that it's day time. This project was to help me not sleep in. The key issues it engages is data security/ownership of data from Internet of Things devices. When the servo moves to turn on my lights, it also sends me (the user) an email about the information it used (when the switch was turned on). It also sends this information to my partners, signaling an LED on theirs. This simulates 3rd parties getting information from IoT devices and the user not knowing about this. In the email that the user receives here though, it says, the 3rd parties have also received the same information. This is the "gotcha" moment to the user that they are trading data privacy for convenience. This is often hidden from the user in most IoT devices. It leads to privacy issues if sensitive information like this is hacked. This project is a prototype of the IoT lights that are used in the real world where more information is collected about the user like when the user is active in the house. This information could help lead to more robberies if 3rd parties are given access to this data and this data is hacked and misused. 
+
 
 ### Form
 
