@@ -26,12 +26,13 @@ For the enclosure, I made the design choice to make it enclosed except for the p
 ![Enclosure with electronics exposed](exposed_enclosure.jpg)
 
 ### Technical Details
-//   
 Here you should give an overview of the technical operation of your device, including:
 * A wiring diagram
 * list of hardware used
 * Explanation of your
 * Link to code   
+
+When I receive the right threshold of light input from my partner's light sensor which would be placed near a windowsil to measure outdoor light, my servo motor will turn and push my lights on. When I receive input from my other partner's calendar notifications events, then an LED inside will blink to indicate that I have received the message.
 
 Wiring diagram: 
 
