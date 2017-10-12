@@ -12,8 +12,6 @@ My project, Its Lit, is a servo to press my light button in the morning based on
 
 
 ### Form
-
-/// Your project should be embodied in a ***physical form*** that reflects, embodies, and/or amplifies those your project's main concepts and ideas.
 Explain your design choices here and include images that document your project's material embodiment. ///
 
 **Finished Enclosure:**
@@ -26,29 +24,20 @@ For the enclosure, I made the design choice to make it enclosed except for the p
 ![Enclosure with electronics exposed](exposed_enclosure.jpg)
 
 ### Technical Details
-Here you should give an overview of the technical operation of your device, including:
-* A wiring diagram
-* list of hardware used
-* Explanation of your
-* Link to code   
-
 When I receive the right threshold of light input from my partner's light sensor which would be placed near a windowsil to measure outdoor light, my servo motor will turn and push my lights on. When I receive input from my other partner's calendar notifications events, then an LED inside will blink to indicate that I have received the message.
 
 Wiring diagram: 
 
 List of hardware used: Servo motor, wires, blue LED, 330 ohms, power cable, power rod (portable charging rod), Photon board
 
-Link to code: 
+Link to code: https://github.com/joycechoi19/physical-computing-midterm/blob/master/photon.ino
+Project's full code in this repository:  [photon.ino](photon.ino)
 
-//
-
-You can include code snippets here:
-
+Code snippets:
+The major feature is when I subscribe to Will's light input signal so that I can trigger myHandler which has the methods for pressing my light switch.
 ```
-Particle.subscribe("Execute", messageParse, MY_DEVICES);
+Particle.subscribe("physical_computing_light_status", myHandler);
 ```
-
-but also link to your project's full code in this repository:  [photon.ino](photon.ino)
 
 **Wiring Diagram**
 
